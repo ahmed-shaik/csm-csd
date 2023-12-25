@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Books Gallery</title>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Computer Science & Engineering (Artificial Intelligence & Machine Learning)<br>Computer Science & Engineering (Data Science)</h1>
+    <div id="bookList" class="book-list"></div>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const booksData = [
+ {
+  title: 'Higher Engineering Mathematics',
+  author: 'B. S. Grewal',
+  year: 2000,
+  quantity: 46,
+  imageUrl: './img/1.jpg'
+ },
+ {
+  title: 'Advanced Engineering Mathematics',
+  author: 'Erwin Kreyszig',
+  year: 1999,
+  quantity: 9,
+  imageUrl: './img/2.jpg'
+ },
+ {
+  title: 'Engineering Mathematics',
+  author: 'N.P.Bali',
+  year: 2007,
+  quantity: 4,
+  imageUrl: './img/3.jpg'
+ },
+ {
+  title: 'Digital Design',
+  author: 'M.Morris Mano',
+  year: 2001,
+  quantity: 9,
+  imageUrl: './img/4.jpg'
+ },
+ {
+  title: 'Switching and Finite Automata Theory',
+  author: 'Z Kohavi',
+  year: 1978,
+  quantity: 9,
+  imageUrl: './img/5.jpg'
+ },
+ {
+  title: 'Data Structures and Programs in C',
+  author: 'R.L.Kruse',
+  year: 2000,
+  quantity: 2,
+  imageUrl: './img/6.jpg'
+ },
+ {
+  title: 'Computer System Architecture',
+  author: 'M.Morris Mano',
+  year: 2001,
+  quantity: 8,
+  imageUrl: './img/7.jpg'
+ },
+ {
+  title: 'JAVA The Complete Reference',
+  author: 'Herbert Schildt',
+  year: 2001,
+  quantity: 10,
+  imageUrl: './img/8.jpg'
+ },
+ {
+  title: 'Programming with JAVA - A Primer',
+  author: 'E Balagurusamy',
+  year: 1998,
+  quantity: 22,
+  imageUrl: './img/9.jpg'
+ },
+ {
+  title: 'Data Communications and Networking',
+  author: 'Behrouz A Forouzan',
+  year: 2000,
+  quantity: 5,
+  imageUrl: './img/10.jpg'
+ },
+ {
+  title: 'Computer Networks',
+  author: 'Andrew S. Tanenbaum',
+  year: 2000,
+  quantity: 6,
+  imageUrl: './img/11.jpg'
+ },
+ {
+  title: 'Data and Computer Communications',
+  author: 'William Stallings',
+  year: 2001,
+  quantity: 14,
+  imageUrl: './img/12.jpg'
+ },
+ {
+  title: 'Discrete Mathematics for computer scientists &Mathematicians',
+  author: 'Joe L. Mott, Abraham Kandel & T. P. Baker',
+  year: 1997,
+  quantity: 14,
+  imageUrl: './img/13.jpg'
+ },
+ {
+  title: 'Discrete Mathematical Structures with Applications to Computer Science',
+  author: 'J. P. Tremblay, R. Manohar',
+  year: 1997,
+  quantity: 14,
+  imageUrl: './img/14.jpg'
+ },
+ {
+  title: 'Artificial Intelligence',
+  author: 'Rich E & Knight K',
+  year: 1991,
+  quantity: 20,
+  imageUrl: './img/15.jpg'
+ },
+ {
+  title: 'Operating Systems: Internals and Design Principles',
+  author: 'William Stalling',
+  year: 2001,
+  quantity: 10,
+  imageUrl: './img/16.jpg'
+ },
+ {
+  title: 'Operating Systems',
+  author: 'Andrew S. Tanenbaum',
+  year: 2001,
+  quantity: 6,
+  imageUrl: './img/17.jpg'
+ },
+ {
+  title: 'Compilers',
+  author: 'Alfred V Aho',
+  year: 1999,
+  quantity: 16,
+  imageUrl: './img/18.jpg'
+ },
+ {
+  title: 'The Design and Analysis of computer Algorithms',
+  author: 'Alfred V Aho',
+  year: 1998,
+  quantity: 14,
+  imageUrl: './img/19.jpg'
+ },
+ {
+  title: 'Microprocessors and Interfacing, Programming and Hardware',
+  author: 'Douglass V. Hall',
+  year: 1999,
+  quantity: 20,
+  imageUrl: './img/20.jpg'
+ },
+ {
+  title: 'Data Structures, Algorithms and Applications in Java',
+  author: 'Sartaj Sahni',
+  year: 2000,
+  quantity: 2,
+  imageUrl: './img/21.jpg'
+ },
+ {
+  title: 'Database System Concepts',
+  author: 'A.Silberschatz.H.Korth',
+  year: 1997,
+  quantity: 9,
+  imageUrl: './img/22.jpg'
+ },
+ {
+  title: 'Database Management Systems',
+  author: 'Raghu Ramakrishnan, Johannes Gehrke',
+  year: 2000,
+  quantity: 6,
+  imageUrl: './img/23.jpg'
+ },
+ {
+  title: 'Neural Networks-A comprehensive Foundation',
+  author: 'Simon Haykin',
+  year: 1999,
+  quantity: 4,
+  imageUrl: './img/24.jpg'
+ },
+ {
+  title: 'Digital Image Processing',
+  author: 'Gonzalez Rafael C and Woods Richard E',
+  year: 2000,
+  quantity: 19,
+  imageUrl: './img/25.jpg'
+ },
+ {
+  title: 'Robotics',
+  author: 'Fu.K.S',
+  year: 1987,
+  quantity: 6,
+  imageUrl: './img/26.jpg'
+ },
+ {
+  title: 'Engineering Physics',
+  author: 'R K Gaur',
+  year: 2001,
+  quantity: 9,
+  imageUrl: './img/27.jpg'
+ },
+ {
+  title: 'Fundamentals of Physics',
+  author: 'David Halliday',
+  year: 2001,
+  quantity: 9,
+  imageUrl: './img/28.jpg'
+ },
+ {
+  title: 'Modern Engineering Physics',
+  author: 'A.S.Vasudeva',
+  year: 2001,
+  quantity: 7,
+  imageUrl: './img/29.jpg'
+ },
+ {
+  title: 'Engineering Chemistry',
+  author: 'P.C.Jain & M.Jain',
+  year: 1999,
+  quantity: 9,
+  imageUrl: './img/30.jpg'
+ },
+ {
+  title: 'Engineering Chemistry',
+  author: 'R.Gopalan',
+  year: 1999,
+  quantity: 2,
+  imageUrl: './img/31.jpg'
+ },
+ {
+  title: 'Engineering Drawing ',
+  author: 'N.D.Bhatt',
+  year: 2000,
+  quantity: 21,
+  imageUrl: './img/32.jpg'
+ },
+ {
+  title: 'Let us C',
+  author: 'Yashvant Katnekar',
+  year: 1999,
+  quantity: 10,
+  imageUrl: './img/33.jpg'
+ }
+]
+        // Add more book entries as needed
+
+      const bookList = document.getElementById('bookList');
+
+      // Populate the book gallery using the provided data
+      booksData.forEach(book => {
+        const bookElement = document.createElement('div');
+        bookElement.classList.add('book');
+
+        const imageElement = document.createElement('img');
+        imageElement.src = book.imageUrl;
+        imageElement.alt = `${book.title} by ${book.author}`;
+
+        const infoElement = document.createElement('div');
+        infoElement.classList.add('book-info');
+        infoElement.innerHTML = `<h3>${book.title}</h3><p>${book.author}</p><p>Published: ${book.year}</p><p>Quantity: ${book.quantity}</p>`;
+
+        bookElement.appendChild(imageElement);
+        bookElement.appendChild(infoElement);
+
+        bookList.appendChild(bookElement);
+      });
+    });
+  </script>
+</body>
+</html>

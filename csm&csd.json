@@ -1,0 +1,233 @@
+[
+ {
+  "BOOK NAME": "Higher Engineering Mathematics",
+  "AUTHOR NAME": "B. S. Grewal",
+  "DATE OF PUBLISHING(YEAR)": 2000,
+  "NO.OF VOLUMES": 46,
+  "links": ".\/img\/1.jpg"
+ },
+ {
+  "BOOK NAME": "Advanced Engineering Mathematics",
+  "AUTHOR NAME": "Erwin Kreyszig",
+  "DATE OF PUBLISHING(YEAR)": 1999,
+  "NO.OF VOLUMES": 9,
+  "links": ".\/img\/2.jpg"
+ },
+ {
+  "BOOK NAME": "Engineering Mathematics",
+  "AUTHOR NAME": "N.P.Bali",
+  "DATE OF PUBLISHING(YEAR)": 2007,
+  "NO.OF VOLUMES": 4,
+  "links": ".\/img\/3.jpg"
+ },
+ {
+  "BOOK NAME": "Digital Design",
+  "AUTHOR NAME": "M.Morris Mano",
+  "DATE OF PUBLISHING(YEAR)": 2001,
+  "NO.OF VOLUMES": 9,
+  "links": ".\/img\/4.jpg"
+ },
+ {
+  "BOOK NAME": "Switching and Finite Automata Theory",
+  "AUTHOR NAME": "Z Kohavi",
+  "DATE OF PUBLISHING(YEAR)": 1978,
+  "NO.OF VOLUMES": 9,
+  "links": ".\/img\/5.jpg"
+ },
+ {
+  "BOOK NAME": "Data Structures and Programs in C",
+  "AUTHOR NAME": "R.L.Kruse",
+  "DATE OF PUBLISHING(YEAR)": 2000,
+  "NO.OF VOLUMES": 2,
+  "links": ".\/img\/6.jpg"
+ },
+ {
+  "BOOK NAME": "Computer System Architecture",
+  "AUTHOR NAME": "M.Morris Mano",
+  "DATE OF PUBLISHING(YEAR)": 2001,
+  "NO.OF VOLUMES": 8,
+  "links": ".\/img\/7.jpg"
+ },
+ {
+  "BOOK NAME": "JAVA The Complete Reference",
+  "AUTHOR NAME": "Herbert Schildt",
+  "DATE OF PUBLISHING(YEAR)": 2001,
+  "NO.OF VOLUMES": 10,
+  "links": ".\/img\/8.jpg"
+ },
+ {
+  "BOOK NAME": "Programming with JAVA - A Primer",
+  "AUTHOR NAME": "E Balagurusamy",
+  "DATE OF PUBLISHING(YEAR)": 1998,
+  "NO.OF VOLUMES": 22,
+  "links": ".\/img\/9.jpg"
+ },
+ {
+  "BOOK NAME": "Data Communications and Networking",
+  "AUTHOR NAME": "Behrouz A Forouzan",
+  "DATE OF PUBLISHING(YEAR)": 2000,
+  "NO.OF VOLUMES": 5,
+  "links": ".\/img\/10.jpg"
+ },
+ {
+  "BOOK NAME": "Computer Networks",
+  "AUTHOR NAME": "Andrew S. Tanenbaum",
+  "DATE OF PUBLISHING(YEAR)": 2000,
+  "NO.OF VOLUMES": 6,
+  "links": ".\/img\/11.jpg"
+ },
+ {
+  "BOOK NAME": "Data and Computer Communications",
+  "AUTHOR NAME": "William Stallings",
+  "DATE OF PUBLISHING(YEAR)": 2001,
+  "NO.OF VOLUMES": 14,
+  "links": ".\/img\/12.jpg"
+ },
+ {
+  "BOOK NAME": "Discrete Mathematics for computer scientists &Mathematicians",
+  "AUTHOR NAME": "Joe L. Mott, Abraham Kandel & T. P. Baker",
+  "DATE OF PUBLISHING(YEAR)": 1997,
+  "NO.OF VOLUMES": 14,
+  "links": ".\/img\/13.jpg"
+ },
+ {
+  "BOOK NAME": "Discrete Mathematical Structures with Applications to Computer Science",
+  "AUTHOR NAME": "J. P. Tremblay, R. Manohar",
+  "DATE OF PUBLISHING(YEAR)": 1997,
+  "NO.OF VOLUMES": 14,
+  "links": ".\/img\/14.jpg"
+ },
+ {
+  "BOOK NAME": "Artificial Intelligence",
+  "AUTHOR NAME": "Rich E & Knight K",
+  "DATE OF PUBLISHING(YEAR)": 1991,
+  "NO.OF VOLUMES": 20,
+  "links": ".\/img\/15.jpg"
+ },
+ {
+  "BOOK NAME": "Operating Systems: Internals and Design Principles",
+  "AUTHOR NAME": "William Stalling",
+  "DATE OF PUBLISHING(YEAR)": 2001,
+  "NO.OF VOLUMES": 10,
+  "links": ".\/img\/16.jpg"
+ },
+ {
+  "BOOK NAME": "Operating Systems",
+  "AUTHOR NAME": "Andrew S. Tanenbaum",
+  "DATE OF PUBLISHING(YEAR)": 2001,
+  "NO.OF VOLUMES": 6,
+  "links": ".\/img\/17.jpg"
+ },
+ {
+  "BOOK NAME": "Compilers",
+  "AUTHOR NAME": "Alfred V Aho",
+  "DATE OF PUBLISHING(YEAR)": 1999,
+  "NO.OF VOLUMES": 16,
+  "links": ".\/img\/18.jpg"
+ },
+ {
+  "BOOK NAME": "The Design and Analysis of computer Algorithms",
+  "AUTHOR NAME": "Alfred V Aho",
+  "DATE OF PUBLISHING(YEAR)": 1998,
+  "NO.OF VOLUMES": 14,
+  "links": ".\/img\/19.jpg"
+ },
+ {
+  "BOOK NAME": "Microprocessors and Interfacing, Programming and Hardware",
+  "AUTHOR NAME": "Douglass V. Hall",
+  "DATE OF PUBLISHING(YEAR)": 1999,
+  "NO.OF VOLUMES": 20,
+  "links": ".\/img\/20.jpg"
+ },
+ {
+  "BOOK NAME": "Data Structures, Algorithms and Applications in Java",
+  "AUTHOR NAME": "Sartaj Sahni",
+  "DATE OF PUBLISHING(YEAR)": 2000,
+  "NO.OF VOLUMES": 2,
+  "links": ".\/img\/21.jpg"
+ },
+ {
+  "BOOK NAME": "Database System Concepts",
+  "AUTHOR NAME": "A.Silberschatz.H.Korth",
+  "DATE OF PUBLISHING(YEAR)": 1997,
+  "NO.OF VOLUMES": 9,
+  "links": ".\/img\/22.jpg"
+ },
+ {
+  "BOOK NAME": "Database Management Systems",
+  "AUTHOR NAME": "Raghu Ramakrishnan, Johannes Gehrke",
+  "DATE OF PUBLISHING(YEAR)": 2000,
+  "NO.OF VOLUMES": 6,
+  "links": ".\/img\/23.jpg"
+ },
+ {
+  "BOOK NAME": "Neural Networks-A comprehensive Foundation",
+  "AUTHOR NAME": "Simon Haykin",
+  "DATE OF PUBLISHING(YEAR)": 1999,
+  "NO.OF VOLUMES": 4,
+  "links": ".\/img\/24.jpg"
+ },
+ {
+  "BOOK NAME": "Digital Image Processing",
+  "AUTHOR NAME": "Gonzalez Rafael C and Woods Richard E",
+  "DATE OF PUBLISHING(YEAR)": 2000,
+  "NO.OF VOLUMES": 19,
+  "links": ".\/img\/25.jpg"
+ },
+ {
+  "BOOK NAME": "Robotics",
+  "AUTHOR NAME": "Fu.K.S",
+  "DATE OF PUBLISHING(YEAR)": 1987,
+  "NO.OF VOLUMES": 6,
+  "links": ".\/img\/26.jpg"
+ },
+ {
+  "BOOK NAME": "Engineering Physics",
+  "AUTHOR NAME": "R K Gaur",
+  "DATE OF PUBLISHING(YEAR)": 2001,
+  "NO.OF VOLUMES": 9,
+  "links": ".\/img\/27.jpg"
+ },
+ {
+  "BOOK NAME": "Fundamentals of Physics",
+  "AUTHOR NAME": "David Halliday",
+  "DATE OF PUBLISHING(YEAR)": 2001,
+  "NO.OF VOLUMES": 9,
+  "links": ".\/img\/28.jpg"
+ },
+ {
+  "BOOK NAME": "Modern Engineering Physics",
+  "AUTHOR NAME": "A.S.Vasudeva",
+  "DATE OF PUBLISHING(YEAR)": 2001,
+  "NO.OF VOLUMES": 7,
+  "links": ".\/img\/29.jpg"
+ },
+ {
+  "BOOK NAME": "Engineering Chemistry",
+  "AUTHOR NAME": "P.C.Jain & M.Jain",
+  "DATE OF PUBLISHING(YEAR)": 1999,
+  "NO.OF VOLUMES": 9,
+  "links": ".\/img\/30.jpg"
+ },
+ {
+  "BOOK NAME": "Engineering Chemistry",
+  "AUTHOR NAME": "R.Gopalan",
+  "DATE OF PUBLISHING(YEAR)": 1999,
+  "NO.OF VOLUMES": 2,
+  "links": ".\/img\/31.jpg"
+ },
+ {
+  "BOOK NAME": "Engineering Drawing ",
+  "AUTHOR NAME": "N.D.Bhatt",
+  "DATE OF PUBLISHING(YEAR)": 2000,
+  "NO.OF VOLUMES": 21,
+  "links": ".\/img\/32.jpg"
+ },
+ {
+  "BOOK NAME": "Let us C",
+  "AUTHOR NAME": "Yashvant Katnekar",
+  "DATE OF PUBLISHING(YEAR)": 1999,
+  "NO.OF VOLUMES": 10,
+  "links": ".\/img\/33.jpg"
+ }
+]
